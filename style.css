@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #fffffff8;
+}
+
+.background-color {
+  background-color: var(--bg-color);
+}
+
+.title-color {
+  color: black;
+}
+
+.break-word {
+  word-break: break-all;
+}
+
+.min-width {
+  min-width: 89px;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 10px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.hidden:hover {
+    cursor: not-allowed;
+}
